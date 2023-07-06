@@ -1,0 +1,352 @@
+@font-face {
+    font-family: CatH;
+    src: url('/assets/font/CATH.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('/assets/img/444.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: auto;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px
+}
+::-webkit-scrollbar-track {
+    background-color:rgb(150, 0, 0);
+} 
+::-webkit-scrollbar-thumb {
+    background:rgba(0, 217, 255, 0.815);
+    border-radius: 10px;
+}
+main{
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: auto;
+    display: flex;
+}
+.main_content{
+    margin-left: auto;
+    margin-right: auto;
+}
+.left_menu{
+    z-index: 3;
+    margin-top: 50px;
+    position: fixed;
+}
+.left_menu img{
+    border-radius: 50%;
+    box-shadow: rgba(255, 0, 0, 0.541) 2px 2px 10px, rgba(255, 0, 0, 0.541) -2px -2px 10px;
+    transition: 1s;
+}
+.left_menu img:hover{
+    transform: scale(1.2);
+}
+.left_menu ul{
+    margin-top: 40px;
+    margin-left: 10px;
+    background: rgba(0, 0, 0, 0.9);
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border: 2px double rgba(0, 217, 255, 0.815);
+    border-radius: 10px;
+    box-shadow: rgba(0, 217, 255, 0.541) 2px 2px 10px, rgba(0, 217, 255, 0.541) -2px -2px 10px;
+    opacity: 0.9;
+    font-family: CatH;
+}
+.left_menu li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.left_menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(0, 217, 255) 2px 2px 10px, rgb(0, 217, 255) -2px -2px 10px;
+    font-size: x-large;
+}
+.left_menu a:hover{
+    color: rgba(7, 0, 100, 0);
+    text-shadow: rgb(0, 0, 0) 2px 5px 2px;
+}
+.slog{ 
+    width: auto;
+    height: 220px;
+    background-image: url("/assets/img/888_2.jpg");
+    border: 2px double rgba(0, 0, 0, 0.815);
+    border-radius: 10px;
+    box-shadow: rgba(255, 0, 0, 0.541) 2px 2px 10px, rgba(255, 0, 0, 0.541) -2px -2px 10px;
+}
+.slog p{
+    font-family: CatH;
+    font-size: 400%;
+    text-align: center;
+    color: black;
+    text-shadow: rgba(255, 0, 0, 0.541) 2px 2px 10px, rgba(255, 0, 0, 0.541) -2px -2px 10px;
+}
+.text_content{
+    margin-top: 20px;
+    width: 990px;
+}
+.txt_box1{
+    display: flex;
+}
+.txt_cont{
+    width: 580px;
+    background: rgba(0, 0, 0, 0.9);
+    padding-bottom: 10px;
+    border: 2px double rgba(0, 217, 255, 0.815);
+    border-radius: 10px;
+    box-shadow: rgba(0, 217, 255, 0.541) 2px 2px 10px, rgba(0, 217, 255, 0.541) -2px -2px 10px;
+    opacity: 0.9;
+}
+.text_content h1{
+    margin-top: 10px;
+    font-family: CatH;
+    text-align: center;
+    color: black;
+    text-shadow: rgb(0, 217, 255) 2px 2px 10px, rgb(0, 217, 255) -2px -2px 10px;
+}
+.txt_cont p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.text_content_img{
+    margin-left: 20px;
+    background-image: url("/assets/img/mark-litovkin-test-18-2-copy.jpg");
+    width: 400px;
+    height: 400px;
+    border: 2px double rgba(0, 217, 255, 0.815);
+    border-radius: 10px;
+    box-shadow: rgba(0, 217, 255, 0.541) 2px 2px 10px, rgba(0, 217, 255, 0.541) -2px -2px 10px;
+}
+.services_content{
+    background: rgba(0, 0, 0, 0.9);
+    opacity: 0.9;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    width: 990px;
+    height: max-content;
+    border: 2px double rgba(0, 217, 255, 0.815);
+    border-radius: 10px;
+    box-shadow: rgba(0, 217, 255, 0.541) 2px 2px 10px, rgba(0, 217, 255, 0.541) -2px -2px 10px;
+}
+.services_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.services_box ul{
+    margin-left: 40px;
+}
+.jobs_content{
+    background: rgba(0, 0, 0, 0.9);
+    opacity: 0.9;
+    margin-top: 20px;
+    width: 990px;
+    height: 400px;
+    border: 2px double rgba(0, 217, 255, 0.815);
+    border-radius: 10px;
+    box-shadow: rgba(0, 217, 255, 0.541) 2px 2px 10px, rgba(0, 217, 255, 0.541) -2px -2px 10px;
+}
+.jobs_content p{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+.new_content{
+    background: rgba(0, 0, 0, 0.9);
+    opacity: 0.9;
+    margin-top: 20px;
+    width: 990px;
+    height: 400px;
+    border: 2px double rgba(0, 217, 255, 0.815);
+    border-radius: 10px;
+    box-shadow: rgba(0, 217, 255, 0.541) 2px 2px 10px, rgba(0, 217, 255, 0.541) -2px -2px 10px;
+}
+.new_content p{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+footer{
+    background: rgba(0, 0, 0, 0.9);
+    opacity: 0.9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 98%;
+    height: 200px;
+    border: 2px double rgba(0, 217, 255, 0.815);
+    border-radius: 10px;
+    box-shadow: rgba(0, 217, 255, 0.541) 2px 2px 10px, rgba(0, 217, 255, 0.541) -2px -2px 10px;
+    display: flex;
+    
+}
+.yamap{
+    margin-left: auto;
+    margin-right: 40px;
+    opacity: 0.8;
+}
+.footer_logo{
+    width: 150px;
+    height: 150px;
+    background-image: url('/assets/img/max_logo3.png');
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: rgba(255, 0, 0, 0.541) 2px 2px 10px, rgba(255, 0, 0, 0.541) -2px -2px 10px;
+}
+.cotact_ul{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 20px;
+    margin-left: auto;
+}
+.cotact_ul ul, label{
+    margin-left: 40px;
+}
+.cotact_ul a {
+    text-decoration: none;
+    color: white;
+}
+.sprite-container {
+    margin-top: 60px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.sprite-image {
+    height: 123px;
+    width: 70px;
+    background: url('/assets/img/smur-sprite.png') 0px 0px;
+    animation: play 0.8s steps(16) infinite,
+        step 10s linear infinite;
+    position: relative;
+    left: 0;
+}
+@keyframes play {
+    100% {
+        background-position: -1135px;
+    }
+}
+@keyframes step {
+    100% {
+        left: 90%;
+    }
+}
+@media screen and (max-width: 1360px){
+    main{
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: min-content;
+     }
+     .left_menu{
+        margin-top: 10px;
+        margin-left: 20px;
+        position: relative;
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .left_menu ul{
+        display: flex;
+        padding-right: 10px;
+        margin-left: 20px;
+        align-items: center;
+    }
+    .left_menu li{
+        margin-left: 10px;
+    }
+    footer{
+        width: 990px;
+    }
+    .footer_logo{
+    display: none;
+    }
+}
+@media screen and (max-width: 800px) {
+    main{
+       width: 600px;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 0;
+       display: flex;
+       align-items: center;
+       flex-wrap: wrap;
+       /* width: min-content; */
+    }
+    .slog{
+       width: 600px;
+       height: auto;
+    }
+    .left_menu{
+        margin-top: 10px;
+        margin-left: 20px;
+        position: relative;
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .left_menu ul{
+        display: flex;
+        padding-right: 10px;
+        margin-left: 20px;
+        align-items: center;
+    }
+    .left_menu li{
+        margin-left: 10px;
+    }
+    .main_content{
+        width: 600px;
+        margin-left: 0;
+    }
+    footer{
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+    }
+    .text_content{
+        width: 600px;
+    }
+    .text_content_img{
+        display: none;
+    }
+    .txt_cont{
+        width: 600px;
+    }
+    .services_content{
+        width: auto;
+    }
+    .jobs_content{
+        width: 600px;
+    }
+    .new_content{
+        width: 600px;
+    }
+    .yamap{
+        margin-right: 10px;
+    }
+}
