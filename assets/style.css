@@ -7,7 +7,7 @@
     padding: 0;
 }
 body{
-    background: url('./assets/img/444.jpg') no-repeat center center fixed; 
+    background: url('./img/444.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -77,7 +77,7 @@ main{
 .slog{ 
     width: auto;
     height: 220px;
-    background-image: url("./assets/img/888_2.jpg");
+    background-image: url("./img/888_2.jpg");
     border: 2px double rgba(0, 0, 0, 0.815);
     border-radius: 10px;
     box-shadow: rgba(255, 0, 0, 0.541) 2px 2px 10px, rgba(255, 0, 0, 0.541) -2px -2px 10px;
@@ -122,7 +122,7 @@ main{
 }
 .text_content_img{
     margin-left: 20px;
-    background-image: url("./assets/img/mark-litovkin-test-18-2-copy.jpg");
+    background-image: url("./img/mark-litovkin-test-18-2-copy.jpg");
     width: 400px;
     height: 400px;
     border: 2px double rgba(0, 217, 255, 0.815);
@@ -209,7 +209,7 @@ footer{
 .footer_logo{
     width: 150px;
     height: 150px;
-    background-image: url('./assets/img/max_logo3.png');
+    background-image: url('./img/max_logo3.png');
     margin-left: 50px;
     margin-top: 20px;
     border-radius: 50%;
@@ -238,7 +238,7 @@ footer{
 .sprite-image {
     height: 123px;
     width: 70px;
-    background: url('/assets/img/smur-sprite.png') 0px 0px;
+    background: url('./img/smur-sprite.png') 0px 0px;
     animation: play 0.8s steps(16) infinite,
         step 10s linear infinite;
     position: relative;
